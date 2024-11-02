@@ -1,356 +1,481 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE+edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ari Gunawan - Web Developer</title>
-    <link rel="stylesheet" href="apps.css">
-    <link rel="stylesheet" href="responsive.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE-Edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Portofolio 3D</title>
+    <!-- Boxicons link -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-<body>
-    <!-- header -->
-     <header>
-        <div class="main-container">
-            <div class="nav">
-            <nav>
-                <div class="logo">
-                    <img src="Images/Ari.png" alt="Ari Gunawan"></a>
+    <!-- css style link -->
+    <link
+      rel="stylesheet"
+      href="apps.css"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="active">
+          <i class="bx bx-home-circle"></i>
+          <span class="tooltip">Home</span>
+        </li>
+        <li>
+          <i class="bx bx-user"></i>
+          <span class="tooltip">About</span>
+        </li>
+        <li>
+          <i class="bx bx-detail"></i>
+          <span class="tooltip">Resume</span>
+        </li>
+        <li>
+          <i class="bx bx-briefcase"></i>
+          <span class="tooltip">Portofolio</span>
+        </li>
+        <li>
+          <i class="bx bx-envelope"></i>
+          <span class="tooltip">Contact</span>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="box">
+        <!-- home section -->
+        <section class="section home active">
+          <div class="home-info">
+            <h3>Hello I'm</h3>
+            <h1>Ari Gunawan</h1>
+            <h3>Fullstack Developer</h3>
+            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi eveniet voluptas aut voluptatem qui distinctio repudiandae magni ex. Dignissimos, dolorum.</p>
+            <div class="btn-sci">
+              <a
+                href="MyCV/Ari Gunawan_CV (1).pdf" target="_blank"
+                class="btn"
+                >Download CV</a
+              >
+              <div class="sci">
+                <a href="https://github.com/arigunawan-lo">
+                  <i class="bx bxl-github"></i>
+                  <span class="tooltip">Github</span>
+                </a>
+                <a href="www.linkedin.com/in/ari-gunaawaan">
+                  <i class="bx bxl-linkedin"></i>
+                  <span class="tooltip">Linkedin</span>
+                </a>
+                <a href="https://www.instagram.com/arguns8/">
+                  <i class="bx bxl-instagram"></i>
+                  <span class="tooltip">Instagram</span>
+                </a>
+                <a href="https://web.facebook.com/arie.gunawan.7161">
+                  <i class="bx bxl-facebook-circle"></i>
+                  <span class="tooltip">Facebook</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="img-wrapper">
+            <div class="img-box home-img">
+              <img
+                src="gambar/Ari.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- about section -->
+        <section class="section about">
+          <div class="img-wrapper">
+            <div class="img-box about-img">
+              <img
+                src="gambar/Ari.png"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="about-info">
+            <h2 class="title">About Me</h2>
+            <h3>Fullstact Developer!</h3>
+            <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, aspernatur. Dolores unde accusantium reiciendis! Fuga iusto alias nesciunt, ratione aliquid voluptatibus! Debitis vero tenetur laudantium.</p>
+            <a
+              href="#"
+              class="btn"
+              >View More</a
+            >
+          </div>
+        </section>
+
+        <!-- resume (experience, skills, education) -->
+        <section class="section resume">
+          <h2 class="title">Resume</h2>
+          <div class="tab-box">
+            <div class="tab-list resume-list active">
+              <h3>Experience</h3>
+            </div>
+            <div class="tab-list resume-list">
+              <h3>Skills</h3>
+            </div>
+            <div class="tab-list resume-list">
+              <h3>Education</h3>
+            </div>
+          </div>
+          <div class="tab-wrapper">
+            <div class="tab-grid resume-box experience active">
+              <div class="tab-item resume-item">
+                <h4>2024 - Present</h4>
+                <h4>Frontend Developer</h4>
+                <h4>Google</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos ab debitis veniam, perferendis aspernatur sapiente?</p>
+              </div>
+              <div class="tab-item resume-item">
+                <h4>2024 - Present</h4>
+                <h4>Frontend Developer</h4>
+                <h4>Google</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias corporis porro quae reiciendis, vel deserunt.</p>
+              </div>
+              <div class="tab-item resume-item">
+                <h4>2024 - Present</h4>
+                <h4>Frontend Developer</h4>
+                <h4>Google</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ratione tenetur rerum aut nam dolorem!</p>
+              </div>
+              <div class="tab-item resume-item">
+                <h4>2024 - Present</h4>
+                <h4>Frontend Developer</h4>
+                <h4>Google</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ab dolorem maiores et consectetur necessitatibus.</p>
+              </div>
+              <div class="tab-item resume-item">
+                <h4>2024 - Present</h4>
+                <h4>Frontend Developer</h4>
+                <h4>Google</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At velit, iusto repudiandae dicta eligendi consequatur.</p>
+              </div>
+              <div class="tab-item resume-item">
+                <h4>2024 - Present</h4>
+                <h4>Frontend Developer</h4>
+                <h4>Google</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, sint. Voluptates corporis perspiciatis et architecto?</p>
+              </div>
+            </div>
+
+
+            <div class="tab-grid resume-box skills">
+              <div class="tab-item resume-item">
+                <i class='bx bxl-html5'></i>
+                <p>HTML5</p>
+              </div>
+              <div class="tab-item resume-item">
+                <i class='bx bxl-css3' ></i>
+                <p>CSS3</p>
+              </div>
+              <div class="tab-item resume-item">
+                <i class='bx bxl-javascript' ></i>
+                <p>JavaScript</p>
+              </div>
+              <div class="tab-item resume-item">
+                <i class='bx bxl-css3' ></i>
+                <p>Tailwind.css</p>
+              </div>
+              <div class="tab-item resume-item">
+                <i class='bx bxl-bootstrap' ></i>
+                <p>Bootstrap</p>
+              </div>
+              <div class="tab-item resume-item">
+                <i class='bx bxl-bootstrap' ></i>
+                <p>PHP</p>
+              </div>
+              <div class="tab-item resume-item">
+                <i class='bx bxl-vuejs' ></i>
+                <p>vuejs</p>
+              </div>
+              <div class="tab-item resume-item">
+                <i class='bx bxl-react' ></i>
+                <p>React.js</p>
+              </div>
+              <div class="tab-item resume-item">
+                <i class='bx bxl-nodejs' ></i>
+                <p>NodeJs</p>
+              </div>
+            </div>
+
+            <div class="tab-grid resume-box education">
+              <div class="tab-item resume-item">
+                 <h4>2025</h4>
+                 <h4>Web Development Program</h4>
+                 <h4>Online Course</h4>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vel expedita nulla ipsam quas. Ea.</p>
+              </div>
+              <div class="tab-item resume-item">
+                 <h4>2024</h4>
+                 <h4>Programming Course</h4>
+                 <h4>Online Course</h4>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vel expedita nulla ipsam quas. Ea.</p>
+              </div>
+              <div class="tab-item resume-item">
+                <h4>2022</h4>
+                <h4>Health Engineering and Occupational Safety Training</h4>
+                <h4>Kemnaker RI</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vel expedita nulla ipsam quas. Ea.</p>
+             </div>
+              <div class="tab-item resume-item">
+                <h4>2014 - 2019</h4>
+                <h4>Bachelor of Industrial Engineering</h4>
+                <h4>State Islamic University of Sultan Syarif Kasim Riau</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vel expedita nulla ipsam quas. Ea.</p>
+             </div>
+             <div class="tab-item resume-item">
+              <h4>2011-2014</h4>
+              <h4>Senior High School</h4>
+              <h4>SMK Nusantara</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vel expedita nulla ipsam quas. Ea.</p>
+           </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- portofolio (work, service) -->
+         <section class="section portofolio">
+          <h2 class="title">Portofolio</h2>
+          <div class="tab-box">
+            <div class="tab-list portofolio-list active">
+              <h3>My Work</h3>
+            </div>
+            <div class="tab-list portofolio-list">
+              <h3>My Service</h3>
+            </div>
+          </div>
+          <div class="tab-wrapper">
+            <div class="tab-grid portofolio-box work active">
+              <div class="tab-item portofolio-item">
+                <div class="work-img">
+                  <img src="work/work1.jpg" alt="">
                 </div>
-                <ul>
-                    <li><a href="#Services">Services</a></li>
-                    <li><a href="#portofolio">Portofolio</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li>
-                        <a href="/Ari Gunawan_CV (1).pdf" target="_blank">
-                        <button class="btn">My CV</button>
+                <div class="work-info">
+                  <h4>Frontend Project</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, eum.</p>
+                  <div class="tech-used">
+                    <p>HTML5, CSS3, JavaScript</p>
+                  </div>
+                  <div class="portofolio-icon work-icon">
+                    <a href="#">
+                      <i class='bx bx-arrow-back'></i>
+                      <span class="tooltip">Preview</span>
                     </a>
-                    </li>
-                </ul>
-            </nav>
-
-            <div class="burger">
-                <div class="line-1"></div>
-                <div class="line-2"></div>
-                <div class="line-3"></div>
+                    <a href="#">
+                      <i class='bx bxl-github' ></i>
+                      <span class="tooltip">Github Repository</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-item portofolio-item">
+                <div class="work-img">
+                  <img src="work/work2.jpg" alt="">
+                </div>
+                <div class="work-info">
+                  <h4>Full Stack Project</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, eum.</p>
+                  <div class="tech-used">
+                    <p>Next.Js, Tailwind.CSS, Node.js</p>
+                  </div>
+                  <div class="portofolio-icon work-icon">
+                    <a href="#">
+                      <i class='bx bx-arrow-back'></i>
+                      <span class="tooltip">Preview</span>
+                    </a>
+                    <a href="#">
+                      <i class='bx bxl-github' ></i>
+                      <span class="tooltip">Github Repository</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-item portofolio-item">
+                <div class="work-img">
+                  <img src="work/work3.jpg" alt="">
+                </div>
+                <div class="work-info">
+                  <h4>Frontend Project</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, eum.</p>
+                  <div class="tech-used">
+                    <p>React.js Tailwind.CSS</p>
+                  </div>
+                  <div class="portofolio-icon work-icon">
+                    <a href="#">
+                      <i class='bx bx-arrow-back'></i>
+                      <span class="tooltip">Preview</span>
+                    </a>
+                    <a href="#">
+                      <i class='bx bxl-github' ></i>
+                      <span class="tooltip">Github Repository</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-item portofolio-item">
+                <div class="work-img">
+                  <img src="work/work45.JPG" alt="">
+                </div>
+                <div class="work-info">
+                  <h4>Frontend Project</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, eum.</p>
+                  <div class="tech-used">
+                    <p>HTML5, Bootstrap, JavaScript</p>
+                  </div>
+                  <div class="portofolio-icon work-icon">
+                    <a href="#">
+                      <i class='bx bx-arrow-back'></i>
+                      <span class="tooltip">Preview</span>
+                    </a>
+                    <a href="#">
+                      <i class='bx bxl-github' ></i>
+                      <span class="tooltip">Github Repository</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-item portofolio-item">
+                <div class="work-img">
+                  <img src="work/work5.jpg" alt="">
+                </div>
+                <div class="work-info">
+                  <h4>Frontend Project</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, eum.</p>
+                  <div class="tech-used">
+                    <p>Next.js, Tailwind.CSS</p>
+                  </div>
+                  <div class="portofolio-icon work-icon">
+                    <a href="#">
+                      <i class='bx bx-arrow-back'></i>
+                      <span class="tooltip">Preview</span>
+                    </a>
+                    <a href="#">
+                      <i class='bx bxl-github' ></i>
+                      <span class="tooltip">Github Repository</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-item portofolio-item">
+                <div class="work-img">
+                  <img src="work/work6.jpg" alt="">
+                </div>
+                <div class="work-info">
+                  <h4>Frontend Project</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, eum.</p>
+                  <div class="tech-used">
+                    <p>Next.js, Tailwind.CSS, Node.js</p>
+                  </div>
+                  <div class="portofolio-icon work-icon">
+                    <a href="#">
+                      <i class='bx bx-arrow-back'></i>
+                      <span class="tooltip">Preview</span>
+                    </a>
+                    <a href="#">
+                      <i class='bx bxl-github' ></i>
+                      <span class="tooltip">Github Repository</span>  
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
-            </div>
-            <section id="hero">
-                <div class="hero-left">
-                    <h3 class="pre-title">My name is</h3>
-                    <h1 class="hero-name">Ari <span>Gunawan</span></h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed distinctio vitae placeat ex, alias aut molestiae quas, cum facilis quos veritatis saepe est quia aperiam animi autem odit voluptates exercitationem.
-                    </p>
-                </div>
-                <div class="hero-right">
-                    <img src="Images/sapiens.svg" alt="Person Standings">
-                </div>
-            </section>
-        </div>
-     </header>
-     <!-- end of header -->
-    <!-- services -->
-     <section id="Services">
-        <div class="services main-container">
-            <h3 class="pre-title">Services</h3>
-            <h1 class="section-title services-title">Specialized In</h1>
 
-            <div class="grid-3">
-
-                <!-- service 1 -->
-                <div class="Service">
-                    <div class="service-icon">
-                    <svg 
-                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                     <path 
-                        d="M22 20v3h-20v-3h20zm0-17c-1.5 0-2.662 1.685-1.598 3.194.535.759.406 1.216.045 1.749-.765 1.127-1.872 2.057-3.447 2.057-2.522 0-3.854-2.083-4.131-3.848-.096-.614-.15-1.074.436-1.644.496-.481.826-1.151.645-1.947-.196-.857-.963-1.561-1.95-1.561-1.104 0-2 .896-2 2 0 .605.293 1.118.695 1.508.586.57.531 1.03.436 1.644-.278 1.764-1.61 3.848-4.131 3.848-1.575 0-2.682-.93-3.447-2.058-.362-.532-.491-.989.045-1.748 1.064-1.509-.098-3.194-1.598-3.194-1.104 0-2 .896-2 2 0 .797.464 1.495 1.144 1.808.825.379.856 1.317.856 2.171v9.021h20v-9.021c0-.854.031-1.792.856-2.171.68-.313 1.144-1.011 1.144-1.808 0-1.104-.897-2-2-2z"/>
-                    </svg>
-                    </div>
-                <h4>UI/UX Design</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptates non cumque, similique dolor minus atque sint ipsum est! Asperiores nisi minus autem. Perferendis ducimus itaque repudiandae esse, corporis voluptatibus.
-                </p>
-                </div>
-
-                <!-- service 2-->
-                <div class="Service">
-                    <div class="service-icon">
-                    <svg 
-                        xmlns="http://www.w3.org/2000/svg" width="24" 
-                        height="24" 
-                        viewBox="0 0 24 24">
-                    <path 
-                        d="M18 0c-3.148 0-6 2.553-6 5.702 0 4.682 4.783 5.177 6 12.298 1.217-7.121 6-7.616 6-12.298 0-3.149-2.852-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm-12-3c-2.099 0-4 1.702-4 3.801 0 3.121 3.188 3.451 4 8.199.812-4.748 4-5.078 4-8.199 0-2.099-1.901-3.801-4-3.801zm0 5.333c-.737 0-1.333-.597-1.333-1.333s.596-1.333 1.333-1.333 1.333.596 1.333 1.333-.596 1.333-1.333 1.333zm6 5.775l-3.215-1.078c.365-.634.777-1.128 1.246-1.687l1.969.657 1.92-.64c.388.521.754 1.093 1.081 1.75l-3.001.998zm12 7.892l-6.707-2.427-5.293 2.427-5.581-2.427-6.419 2.427 3.62-8.144c.299.76.554 1.776.596 3.583l-.443.996 2.699-1.021 4.809 2.091.751-3.725.718 3.675 4.454-2.042 3.099 1.121-.461-1.055c.026-.392.068-.78.131-1.144.144-.84.345-1.564.585-2.212l3.442 7.877z"/>
-                    </svg>
-                </div>
-                <h4>Application Development</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptates non cumque, similique dolor minus atque sint ipsum est! Asperiores nisi minus autem. Perferendis ducimus itaque repudiandae esse, corporis voluptatibus.</p>
-                </div>
-
-                <!-- service 3 -->
-                <div class="Service">
-                    <div class="service-icon">
-                    <svg 
-                        width="24" 
-                        height="24" 
-                        xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-                    <path 
-                        d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12m2.557 16h-5.115c.546 2.46 1.441 4.114 2.558 5.744 1.194-1.741 2.041-3.41 2.557-5.744m-7.157 0h-4.567c1.236 2.825 3.704 4.972 6.755 5.716-1.048-1.733-1.783-3.658-2.188-5.716m13.767 0h-4.567c-.391 1.988-1.095 3.887-2.175 5.694 3.012-.763 5.517-2.895 6.742-5.694m-14.005-6h-4.962c-.267 1.313-.267 2.685 0 4h4.915c-.119-1.329-.101-2.672.047-4m7.661 0h-5.647c-.165 1.326-.185 2.672-.053 4h5.753c.133-1.328.111-2.673-.053-4m6.977 0h-4.963c.148 1.328.166 2.671.048 4h4.915c.26-1.285.273-2.648 0-4m-12.156-7.729c-3.077.732-5.567 2.886-6.811 5.729h4.653c.435-2.042 1.178-3.985 2.158-5.729m2.355-.048c-1.089 1.77-1.91 3.453-2.463 5.777h4.927c-.534-2.246-1.337-3.948-2.464-5.777m2.368.069c1.013 1.812 1.733 3.76 2.146 5.708h4.654c-1.232-2.816-3.762-4.958-6.8-5.708"/>
-                    </svg>
+            <div class="tab-grid portofolio-box service">
+              <div class="tab-item portofolio-item">
+                <div class="portofolio-icon service-icon">
+                  <i class='bx bx-code-alt icon'></i>
+                  <a href="#"><i class='bx bx-arrow-back' ></i></a>
                 </div>
                 <h4>Web Development</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptates non cumque, similique dolor minus atque sint ipsum est! Asperiores nisi minus autem. Perferendis ducimus itaque repudiandae esse, corporis voluptatibus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed unde deleniti deserunt!</p>
+              </div>
+
+              <div class="tab-item portofolio-item">
+                <div class="portofolio-icon service-icon">
+                  <i class='bx bxs-paint icon'></i>
+                  <a href="#"><i class='bx bx-arrow-back' ></i></a>
                 </div>
+                <h4>UI/UX Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed unde deleniti deserunt!</p>
+              </div>
+
+              <div class="tab-item portofolio-item">
+                <div class="portofolio-icon service-icon">
+                  <i class='bx bxl-android icon'></i>
+                  <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h4>Application Development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed unde deleniti deserunt!</p>
+              </div>
+
+              <div class="tab-item portofolio-item">
+                <div class="portofolio-icon service-icon">
+                  <i class='bx bx-signal-5 icon'></i>
+                  <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h4>SEO</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed unde deleniti deserunt!</p>
+              </div>
+
+              <div class="tab-item portofolio-item">
+                <div class="portofolio-icon service-icon">
+                  <i class='bx bx-slideshow icon'></i>
+                  <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h4>Video Editing</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed unde deleniti deserunt!</p>
+              </div>
+
+              <div class="tab-item portofolio-item">
+                <div class="portofolio-icon service-icon">
+                  <i class='bx bx-camera icon'></i>
+                  <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h4>Photography</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed unde deleniti deserunt!</p>
+              </div>
             </div>
-        </div>
-     </section>
-     <!-- end of services -->
-      <!-- portofolio -->
-      <section>
-        <section id="portofolio">
-            <div class="portofolio main-container">
-                <h3 class="pre-title">My Project></h3>
-                <h1 class="section-title">Featured Portofolio</h1>
-                <div class="grid-3">
-                    
-                    <!-- portofolio 1 -->
-                    <div class="portofolio">
-                        <div class="portofolio-cover">
-                           <img src="portofolios/gambar2.jpg" alt="portofolio1"> 
-                        </div>
+          </div>
+         </section>
 
-                        <div class="portofolio-info">
-                            <div class="portofolio-title">
-                                <h4>Agency Website</h4>
-                                <a href="/" class="portofolio-link">
-                                <svg 
-                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/>
-                                </svg>
-                                </a>
-                            </div>
-
-                            <div class="portofolio-text">
-                                <div>React</div>
-                                <div>Tailwind</div>
-                            </div>
-
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa numquam facilis quidem minus corporis ut ducimus sapiente quae, dolores rem provident! Eligendi accusantium eum dolorum commodi quasi neque labore accusamus.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- portofolio 2 -->
-                    <div class="portofolio">
-                        <div class="portofolio-cover">
-                           <img src="portofolios/gambar1.jpg" alt="portofolio2"> 
-                        </div>
-
-                        <div class="portofolio-info">
-                            <div class="portofolio-title">
-                                <h4>Landing Page</h4>
-                                <a href="/" class="portofolio-link">
-                                <svg 
-                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/>
-                                </svg>
-                                </a>
-                            </div>
-
-                            <div class="portofolio-text">
-                                <div>Vue</div>
-                                <div>Contentful</div>
-                            </div>
-
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa numquam facilis quidem minus corporis ut ducimus sapiente quae, dolores rem provident! Eligendi accusantium eum dolorum commodi quasi neque labore accusamus.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- portofolio 3 -->
-                    <div class="portofolio">
-                        <div class="portofolio-cover">
-                           <img src="portofolios/menu3.jpg" alt="portofolio3"> 
-                        </div>
-
-                        <div class="portofolio-info">
-                            <div class="portofolio-title">
-                                <h4>Dashboard Admin</h4>
-                                <a href="/" class="portofolio-link">
-                                <svg 
-                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/>
-                                </svg>
-                                </a>
-                            </div>
-
-                            <div class="portofolio-text">
-                                <div>React</div>
-                                <div>Materialize</div>
-                            </div>
-
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa numquam facilis quidem minus corporis ut ducimus sapiente quae, dolores rem provident! Eligendi accusantium eum dolorum commodi quasi neque labore accusamus.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </section>
-        <!-- end of portofolio -->
-
-        <!-- skills & education -->
-    <section id="skills">
-        <div class="skills main-container">
-            <h3 class="pre-title">Learning Path</h3>
-            <h1 class="section-title">Skills & Education</h1>
-
-            <div class="skills-grid">
-                <div class="skills-left">
-                    <!-- education 1 -->
-                    <div class="education">
-                        <div class="line">
-                            <div></div>
-                        </div>
-                        <div class="education-info">
-                            <h4 class="education-title">UIN SUSKA RIAU</h4>
-                            <p>Bachelor Degree of Industrial Engineering</p>
-                            <h4 class="education-years">2014-2019</h4>
-                        </div>
-                    </div>
-                    <!-- education 2 -->
-                    <div class="education">
-                        <div class="line">
-                            <div></div>
-                        </div>
-
-                        <div class="education-info">
-                            <h4 class="education-title">UIN SUSKA RIAU</h4>
-                            <p>Bachelor Degree of Industrial Engineering</p>
-                            <h4 class="education-years">2014-2019</h4>
-                        </div>
-                    </div>
-                    <!-- education 3-->
-                    <div class="education">
-                        <div class="line">
-                            <div></div>
-                        </div>
-
-                        <div class="education-info">
-                            <h4 class="education-title">UIN SUSKA RIAU</h4>
-                            <p>Bachelor Degree of Industrial Engineering</p>
-                            <h4 class="education-years">2014-2019</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="skills-right">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, fugiat consectetur rerum, maxime, accusamus quam eligendi voluptas atque recusandae alias dolore enim quisquam placeat amet reprehenderit explicabo ratione? Tenetur, voluptatibus?
-                    </p>
-                    <div class="skills-list">
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Javascript</li>
-                            <li>Node.JS</li>
-                        </ul>
-
-                        <ul>
-                             <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Javascript</li>
-                            <li>Node.JS</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-         <!-- end of skills & education -->
-
-    <!-- contact -->
-    <section id="contact">
-        <div class="contact main-container">
-            <div class="contact-left">
-            <form class="contact-form" action="https://formspree.io/f/mldeevyr" method="POST">
-                <div>
-                    <input type="text" placeholder="Name" name="name">
-                </div>
-                <div>
-                    <input type="email" placeholder="email" name="email">
-                </div>
-                <div>
-                    <textarea 
-                    name="message" 
-                    id="message"
-                    placeholder="message" 
-                    cols="30" 
-                    rows="10">
-                </textarea>
-                </div>
-                <div>
-                <button class="btn-submit">Send Message</button>
-                </div>
+        <!-- contact section -->
+         <section class="section contact active">
+          <h2 class="title">Contact</h2>
+          <div class="contact-wrapper">
+            <form action="" class="contact-form">
+              <h3>Let's Work Together!</h3>
+              <div class="field-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Addres" required>
+                <input type="text" placeholder="Phone Number" required>
+                <input type="text" placeholder="Email Subject" required>
+                <textarea name="" id="" placeholder="Your Message" required></textarea>
+              </div>
+              <div class="contact-btn">
+                <button type="submit" class="btn">Send Message</button>
+              </div>
             </form>
-            </div>
-            <div class="contact-right">
-                <!-- contact 1 -->
-                <div class="contact-item">
-                    <div class="contact-item-icon">
-                <svg xmlns="http://www.w3.org/2000/svg"         width="24" height="24" viewBox="0 0 24 24"><path d="M12 3c2.131 0 4 1.73 4 3.702 0 2.05-1.714 4.941-4 8.561-2.286-3.62-4-6.511-4-8.561 0-1.972 1.869-3.702 4-3.702zm0-2c-3.148 0-6 2.553-6 5.702 0 3.148 2.602 6.907 6 12.298 3.398-5.391 6-9.15 6-12.298 0-3.149-2.851-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm8 6h-3.135c-.385.641-.798 1.309-1.232 2h3.131l.5 1h-4.264l-.344.544-.289.456h.558l.858 2h-7.488l.858-2h.479l-.289-.456-.343-.544h-2.042l-1.011-1h2.42c-.435-.691-.848-1.359-1.232-2h-3.135l-4 8h24l-4-8zm-12.794 6h-3.97l1.764-3.528 1.516 1.528h1.549l-.859 2zm8.808-2h3.75l1 2h-3.892l-.858-2z"/>
-                </svg>   
-                    </div>
-                    <div class="contact-item-detail">
-                        <h4>Addres</h4>
-                        <p>Pekanbaru, Riau, Indonesia</p>
-                    </div>
-                </div>
-                <!-- contact 2 -->
-                <div class="contact-item">
-                    <div class="contact-item-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg> 
-                    </div>
-                    <div class="contact-item-detail">
-                        <h4>Phone</h4>
-                        <p>(+62) 87898570353</p>
-                    </div>
-                </div>
-                <!-- contact 2 -->
-                <div class="contact-item">
-                    <div class="contact-item-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11.99 0l-11.99 8.723v15.277h24v-15.277l-12.01-8.723zm.001 2.472l9.793 7.113-6.735 4.588-3.049-2.47-3.049 2.471-6.737-4.589 9.777-7.113zm-9.991 9.386l5.329 3.63-5.329 4.318v-7.948zm.474 10.142l9.526-7.723 9.526 7.723h-19.052zm19.526-2.194l-5.329-4.317 5.329-3.631v7.948z"/></svg>  
-                    </div>
-                    <div class="contact-item-detail">
-                        <h4>Email</h4>
-                        <p>arigunawansari@gmail.com</p>
-                    </div>
-                </div>
-            </div>
-            </div>
-    </section>
-    <!-- end of contact -->
+          </div>
+         </section>
+        
+      </div>
+    </div>
 
-    <!-- Copyright -->
-     <footer>
-        <div class="footer-icon">
-            <a href="">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-            </a>
-            <a href="">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-            </a>
-            <a href="">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"/></svg>
-            </a>
-        </div>
-        <p>&#169; 2024 - Create By Ari Gunawan</p>
-     </footer>
-     <!-- end of copyright -->
-     <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
